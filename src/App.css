@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.access{
+    background: url(./background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+.access .pad{
+    margin: 3% 25%;
+}
+.access .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 13%;
+}
+.access .logo img{
+    width: 6%;
+}
+.access .logo h1{
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.access h3{
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 5%;
+}
+.access h3 span{
+    font-size: 30px;
+    font-weight: 400;
+}
+.access p{
+    font-size: 13.5px;
+}
+.access .line{
+    padding: 0.5px;
+    margin: 10% 0%;
+    background: black
+}
+.access h2{
+    font-weight: 300;
+    font-size: 27px;
+    padding-bottom: 5%;
+}
+.access h2 span{
+    font-size: 25px;
+    font-weight: 500;
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+.access .col .row{
+    display: flex;
+    flex-direction: row;
+    margin: 7% 0%;
+}
+.access .col .row input{
+    padding: 10px;
+    width: 70%;
+    border: 1px solid black;
+}
+.access .col .row input::placeholder{
+    color: rgb(211, 211, 211);
+}
+.access .col .row button{
+    width: 30%;
+    background: black;
+    color: white;
+    border: none;
+}
+.access .col .row button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:520px) {
+    .access .pad{
+        margin: 3% 15%;
+    }
+}
+@media screen and (max-width:400px) {
+    .access .pad{
+        margin: 3% 5%;
+    }
+}
